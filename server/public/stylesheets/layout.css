@@ -20,3 +20,16 @@ a {
 #navbarSupportedContent ul li:not(:last-child){
   border-right:solid 1px rgb(146, 137, 137);
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(124, 129, 133);
+  color: white;
+  text-align: center;
+  
+ }
+ footer p{
+   margin-top:10px
+ }
