@@ -2,6 +2,9 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+.body{
+  padding-bottom: 50px;
+}
 .navbar-light .navbar-toggler {
   margin-top: -5px;
 }
@@ -41,7 +44,6 @@ footer p {
 }
 .home-page-options li {
   padding: 10px;
-
   list-style: none;
   margin: 2px;
   background: black;
