@@ -31,14 +31,15 @@ footer p {
 /* End Home Style */
 
 /* Start Main Page Style */
-.edit-search-options {
+.home-page-options {
   background: rgb(112, 191, 228);
   margin-left: 25%;
   padding: 35px;
   max-width: 90%;
   margin-left: 5%;
+  margin-top:30px;
 }
-.edit-search-options li {
+.home-page-options li {
   padding: 10px;
 
   list-style: none;
@@ -48,22 +49,22 @@ footer p {
   border: solid 1px white;
   cursor: pointer;
 }
-.edit-search-options li:hover {
+.home-page-options li:hover {
   text-decoration: none;
   color: white;
   background: rgba(0, 0, 0, 0.685);
 }
-.edit-search-options a:hover {
+.home-page-options a:hover {
   text-decoration: none;
   color: white;
 }
-.edit-search-options a {
+.home-page-options a {
   color: rgb(238, 237, 237);
   font-size: 17px;
   text-decoration: none;
 }
 @media (min-width: 680px) {
-  .edit-search-options {
+  .home-page-options {
     max-width: 30%;
     margin-left: 35%;
   }
