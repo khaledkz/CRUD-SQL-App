@@ -10,4 +10,7 @@ router.get('/main-slider',(req,res)=>(
 router.get('/main-slider/add',(req,res)=>(
     res.render('addMainSlider.hbs')
 ))
+router.post('/main-slider/add',(req,res)=>(
+    res.json(req.body)
+))
 module.exports = router;
