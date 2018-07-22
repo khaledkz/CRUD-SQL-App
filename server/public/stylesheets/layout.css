@@ -1,0 +1,22 @@
+body {
+   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-light .navbar-toggler{
+  margin-top:-5px;
+}
+
+
+#navbarSupportedContent ul{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+#navbarSupportedContent ul li:not(:last-child){
+  border-right:solid 1px rgb(146, 137, 137);
+}
