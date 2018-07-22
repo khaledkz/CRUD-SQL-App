@@ -7,5 +7,7 @@ router.get('/',(req,res)=>(
 router.get('/main-slider',(req,res)=>(
     res.render('menu.hbs',{title:'Main Slider',linkTitle:'main-slider'})
 ))
-
+router.get('/main-slider/add',(req,res)=>(
+    res.render('addMainSlider.hbs')
+))
 module.exports = router;
