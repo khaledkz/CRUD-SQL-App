@@ -34,7 +34,7 @@ footer p {
 /* End Home Style */
 
 /* Start Main Page Style */
-.home-page-options {
+.home-page-options ul{
   background: rgb(112, 191, 228);
   margin-left: 25%;
   padding: 35px;
