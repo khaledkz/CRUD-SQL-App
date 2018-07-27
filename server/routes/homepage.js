@@ -1,9 +1,14 @@
 const express = require('express');
 const router = express.Router();
+const filename =require('./database.sqlite3');
+const sqlite3    = require( 'sqlite3' ).verbose();
 
-router.get('/',(req,res)=>(
+// open the database
+
+router.get('/',(req,res)=>{
+  
     res.render('homepage.hbs')
-))
+})
 router.get('/main-slider',(req,res)=>(
     res.render('menu.hbs',{title:'Main Slider',linkTitle:'main-slider'})
 ))
